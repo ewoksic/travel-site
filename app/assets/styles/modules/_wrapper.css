@@ -1,0 +1,24 @@
+.wrapper{
+
+
+    padding-left: 18px;
+    padding-right: 18px;
+    overflow: hidden;
+    max-width: 1236px;
+    margin:0 auto 0 auto ;
+    
+    &--medium{
+        max-width: 976px;
+    }
+    /* odnosi se na nested wrapper */
+    .wrapper{
+        padding-right: 0;
+        padding-left: 0;
+    }
+&--b-margin{
+    margin-bottom: 1rem;
+    @mixin atSmall {
+        margin-bottom: 3.875rem;
+    }
+}
+}
