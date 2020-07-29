@@ -21,9 +21,8 @@ let stickyHeader = new StickyHeader();
                 modal = new x.default()
                 setTimeout(() => modal.openTheModal(), 20)
               }).catch(() =>console.log("Ther was a problem."))
-
         }else{
-            modal.openTheModal
+            modal.openTheModal()
 
         }
      })

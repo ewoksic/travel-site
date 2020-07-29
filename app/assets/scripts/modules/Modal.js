@@ -29,7 +29,6 @@ closeTheModal(){
     this.modal.classList.remove("modal--is-visible")
 
 }
-
     injectHTML(){
         document.body.insertAdjacentHTML('beforeend', `
         <div class="modal">
